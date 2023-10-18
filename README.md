@@ -36,7 +36,9 @@ We use the `Live Server` extension to locally run the website to see how it reac
 ## When you see a...
 
 💡  This is just a tip / explanation why things were structured a certain way.
+
 📚 The Books is meant to be used as Labels to seperate each section.
+
 ⭐ These are TODO's which you should do when you reach them.
 
 # Just some random notes
