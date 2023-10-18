@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaturesWonder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Nav bar -->
+        <nav id="navbar">
+            <!-- ⭐TODO: insert image of logo -->\
+            <div>
+                <p>About</p>
+                <p>Trips</p>
+                <p>Pricing</p>
+                <p>BLog</p>
+            </div>
+            <button>
+                Book Now
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 📚Hero Section -->
+        <!-- 
+            💡Tip: Figma will probably not give you the css for this but download the image and 
+            make this section background that image url 
+        -->
+        <section id="hero">
+            <p>Unlock the Beauty of the World Naturally</p>
+            <div>
+                <h1>NatureWonders Adventures</h1>
+                <!-- ⭐TODO: insert svg shape -->
+            </div>
+            <div>
+                <p>Learn More</p>
+                <!-- ⭐TODO:  insert svg shape -->
+            </div>
+        </section>
+
+        <!-- 📚About Section -->
+        <section id="about">
+            <!-- 📚Title section -->
+            <div>
+                <h2>Discover the World's Hidden Gems</h2>
+                <!-- ⭐TODO:  insert svg shape and align it in a similar position -->
+            </div>
+            <!-- 📚Information blurb -->
+            <!-- 
+                💡Tip: You might see the green line on the left hand side and wonder how to 
+                do that, well Figma is dumb! One way to replicate that in code is by adding a
+                "left-border" to the div section below in the css file
+            -->
+            <div>
+                <p>
+                    At NatureWonders Adventures, we believe that the most extraordinary adventures are 
+                    found in the heart of nature. Our mission is to connect you with the wonders of the 
+                    world in a way that respects and preserves the environment.
+                </p>
+                <p> 
+                    From serene hikes through ancient forests to thrilling expeditions to untouched 
+                    wilderness, our expertly crafted adventures will awaken your sense of wonder.
+                </p>
+            </div>
+        </section>
+        <!-- 📚Value Proposition Section -->
+        <section>
+            <h2>Why Choose NatureWonders Adventures?</h2>
+            <!-- 
+                💡Tip: To replicate a 2 directional layout like the grid you can simulate
+                that by wrapping content in parent divs. That way in the css you can make
+                the "grandparent" of the cards go on direction, the parents be the opposite direction
+                and the layout will look like that.
+
+                But ok that was a lot of text, if that doesnt make sense ask Alan for a visual breakdown.
+            -->
+            <div id="card-container">
+                <div class="row">
+                    <div class="card">
+                        <h1>01</h1>
+                        <h3>Sustainable Travel</h3>
+                        <p>
+                            We're committed to eco-friendly travel that minimizes 
+                            our impact on the environment and supports local communities.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h1>02</h1>
+                        <h3>Expert Guides</h3>
+                        <p>
+                            Our experienced guides are passionate about nature, 
+                            ensuring your adventure is safe and informative.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <h1>01</h1>
+                        <h3>Sustainable Travel</h3>
+                        <p>
+                            We're committed to eco-friendly travel that minimizes 
+                            our impact on the environment and supports local communities.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h1>02</h1>
+                        <h3>Expert Guides</h3>
+                        <p>
+                            Our experienced guides are passionate about nature, 
+                            ensuring your adventure is safe and informative.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 📚Testimonial Section -->
+        <section id="testimonial">
+            <h2>What Our Adventurers Say</h2>
+            <!-- ⭐TODO:  insert svg shape and align it in a similar position -->
+            <div class="quote">
+                <p>
+                    "NatureWonders Adventures gave me an experience I'll cherish 
+                    forever. I felt in harmony with nature."
+                </p>
+                <p>— Olivia M., California</p>
+            </div>
+            <div class="quote">
+                <p>
+                    "I've never felt so close to the wild. It's a must for all 
+                    nature enthusiasts!"
+                </p>
+                <p>— Mark S., New York</p>
+            </div>
+        </section>
+
+        <!-- 📚Gallery Section -->
+        <section id="gallery">
+            <div>
+                <!-- ⭐TODO: insert the image -->
+                <!-- ⭐TODO: insert the image -->
+                <!-- ⭐TODO: insert the image -->
+            </div>
+            <button>Book your Adventure</button>
+        </section>
+    </main>
+
+    <footer>
+        <!-- 
+                💡Tip: To replicate a 2 directional layout like the grid you can simulate
+                that by wrapping content in parent divs. That way in the css you can make
+                the "grandparent" of the cards go on direction, the parents be the opposite direction
+                and the layout will look like that.
+
+                if that doesnt make sense ask Alan for a visual breakdown.
+            -->
+        <div>
+            <div class="text-column">
+                <p>PAGES</p>
+                <div>
+                    <!-- ⭐TODO: insert svg shape -->
+                    <p>About</p>
+                </div>
+                <div>
+                    <!-- ⭐TODO: insert svg shape -->
+                    <p>Trips</p>
+                </div>
+                <div>
+                    <!-- ⭐TODO: insert svg shape -->
+                    <p>Pricing</p>
+                </div>
+                <div>
+                    <!-- ⭐TODO: insert svg shape -->
+                    <p>Blog</p>
+                </div>
+            </div>
+            <div class="text-column">
+                <p>INFORMATION</p>
+                <div>
+                    <!-- ⭐TODO: insert svg shape -->
+                    <p>FAQ</p>
+                </div>
+                <div>
+                    <!-- ⭐TODO: insert svg shape -->
+                    <p>Privacy Policy</p>
+                </div>
+                <div>
+                    <!-- ⭐TODO: insert svg shape -->
+                    <p>Terms & Conditions</p>
+                </div>
+            </div>
+            <div class="text-column">
+                <!-- 
+                    💡Tip: The reason why I am wrapping the social media text in its own div
+                    separate from the copyright text is because the spacing between the title text
+                    and the icons are separate from the copyright text which is why we will space the 
+                    social media icons horizontally then apply a vertical alignment for the title and that
+                    and then apply spacing from that group to the lone text.
+                 -->
+                <div>
+                    <p>SOCIAL MEDIA</p>
+                    <div>
+                        <!-- ⭐TODO: insert social media svg shape -->
+                        <!-- ⭐TODO: insert social media svg shape -->
+                        <!-- ⭐TODO: insert social media svg shape -->
+                    </div>
+                </div>
+                <p>Copyright © 2023 NatureWonders Adventures</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
