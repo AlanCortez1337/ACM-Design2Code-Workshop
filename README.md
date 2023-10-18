@@ -33,6 +33,20 @@ We use the `Live Server` extension to locally run the website to see how it reac
 
 *Each time you save will refresh the website for you to view*
 
+## Saving your code if you are using codespaces
+
+Github codespaces are temporary, if you want to save your code then you have to use `git` in order to save your changes to your local repository.
+
+If you are not familiar with using `git` then do the following steps in order and it *should* work (knock on wood)
+
+```
+git add .
+git commit -m "initial commit"
+git push
+```
+
+When you run those commands line by line then when you go back to your github repository you should see the changes there so that next time you can just open the codespace and get right back into it.
+
 ## When you see a...
 
 💡  This is just a tip / explanation why things were structured a certain way.
